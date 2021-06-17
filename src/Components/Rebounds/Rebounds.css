@@ -1,0 +1,91 @@
+.Rebounds {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.Rebounds h3 {
+    padding: .77rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.Rebounds input {
+    float: right;
+    width: 75px;
+    padding: .3rem 0;
+    margin-top: -10px;
+    border: 1px solid #fff;
+    background-image: linear-gradient(to bottom right, #fff, #f2f2f2);
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    color: #010c3f;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.Decrement {
+    position: relative;
+    float: none;
+    border: none;
+    background-color: red;
+    height: 3px;
+    width: 20px;
+    margin-right: 47px;
+    top: -3px;
+}
+
+.OffensiveReboundMade {
+    display: inline-block;
+    cursor: pointer;
+    width: 4rem;
+    padding: .77rem 0;
+    margin-right: 55px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(#17408B, #12326e);
+    text-align: center;
+    font-size: .833rem;
+    transition: background-image .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.OffensiveReboundMade:hover {
+    background-image: linear-gradient(#5083e2, #12326e);
+}
+
+.DefensiveReboundMade {
+    display: inline-block;
+    cursor: pointer;
+    width: 4rem;
+    padding: .77rem 0;
+    margin-right: 55px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(#17408B, #12326e);
+    text-align: center;
+    font-size: .833rem;
+    transition: background-image .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.DefensiveReboundMade:hover {
+    background-image: linear-gradient(#5083e2, #12326e);
+}
+
+.Rebounds hr {
+    color: black;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 2px;
+}

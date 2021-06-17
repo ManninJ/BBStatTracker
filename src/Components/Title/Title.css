@@ -1,0 +1,26 @@
+.GameLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .GameLabel input {
+    width: 75%;
+    padding: .88rem 0;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    color: #010c3f;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .GameLabel input:focus {
+    outline: none;
+  }
+
+  .PlayerName {
+      margin-top: 10px;
+  }

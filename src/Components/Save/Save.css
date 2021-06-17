@@ -1,0 +1,85 @@
+.Save {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .5rem;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.SaveButton {
+    cursor: pointer;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    background-image: linear-gradient(#295dbd, #001e55);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    border: 0px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ShowData {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ShowData-inner {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #fff, #e6e6e6);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Labels {
+    float: left;
+    text-align: left;
+}
+
+.Values {
+    text-align: right;
+    float: right;
+}
+
+.Close {
+    position: absolute;
+    margin-top: 350px;
+    align-content: center;
+    width: 100%;
+}
+
+.CloseButton {
+    cursor: pointer;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    background-image: linear-gradient(#295dbd, #001e55);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    border: 0px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.PlayerName {
+    margin-bottom: 15px;
+}
+
+.TeamName {
+    margin-bottom: 15px;
+}
