@@ -366,7 +366,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1><span className="highlight">BB</span>StatTracker</h1>
+        <h1><span className="highlight">BB</span>StatTracker hehe</h1>
         <div className="App">
           <Title teamName={this.state.teamName}
                   playerName={this.state.playerName}
